@@ -301,6 +301,11 @@ body {
     text-align: left;
     padding-left: 0%;
     padding-right: 0%;
+    max-height: 150px;
+    overflow-y: auto;  /* Vertical scrolling when content overflows */
+    overflow-x: auto;  /* Horizontal scrolling if needed */
+}
+
   }
 
   .nine p {
