@@ -306,12 +306,12 @@ body {
   }
 
 /* Mobile-friendly settings: Let the text expand fully without scroll */
-  @media (max-width: 600px) {
-    .wish h5 {
-      max-height: none; /* Remove max-height on mobile to show all text */
-      overflow-y: visible; /* Ensure no scrolling on mobile */
-      font-size: 1.2rem; /* Slightly smaller text for mobile */
-    }
+@media (max-width: 600px) {
+  .wish h5 {
+    max-height: none; /* Remove max-height on mobile to show all text */
+    overflow-y: visible; /* Ensure no scrolling on mobile */
+    font-size: 1.2rem; /* Slightly smaller text for mobile */
+  }
   }
 
   }
