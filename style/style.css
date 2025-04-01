@@ -65,12 +65,12 @@ body {
 }
 
 .four .text-box {
-  width: 600px;
-  margin: 0 auto;
+  width: 300px;
+  margin: auto;
   border: 3px solid #aaa;
   border-radius: 5px;
   padding: 10px;
-  position: relative;
+  position: absolute;
 }
 
 .text-box p {
