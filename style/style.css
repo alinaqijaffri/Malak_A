@@ -301,10 +301,20 @@ body {
     text-align: left;
     padding-left: 0%;
     padding-right: 0%;
-    max-height: 150px;
-    overflow-y: auto;  /* Vertical scrolling when content overflows */
-    overflow-x: auto;  /* Horizontal scrolling if needed */
-}
+    max-height: 300px; /* Set a max-height for larger screens */
+    overflow-y: auto;  /* Enables vertical scrolling when the content overflows */
+  }
+
+/* Mobile-friendly settings: Let the text expand fully without scroll */
+  @media (max-width: 600px) {
+    .wish h5 {
+      max-height: none; /* Remove max-height on mobile to show all text */
+      overflow-y: visible; /* Ensure no scrolling on mobile */
+      font-size: 1.2rem; /* Slightly smaller text for mobile */
+    }
+  }
+
+  }
 
   }
 
