@@ -298,6 +298,8 @@ body {
 
   .wish h5 {
     font-size: 1.4rem;
+    text-align: left;
+    width: 100%;
   }
 
   .nine p {
